@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     background-color: darkblue;
     color: white
 }
@@ -36,4 +36,22 @@ footer{
     position: fixed;
     bottom: 20px;
     left: 20px;
+}
+
+h1{
+    margin-bottom: 5px; /*small enough space for h1 and <p>*/
+}
+
+footer a{
+    /*just for anchor tags inside footer*/
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+a:hover{
+    /*pseudo class selector
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+    selector for me to change color of hovered links/anchors
+    */
+    color: rgb(197, 141, 29)
 }
