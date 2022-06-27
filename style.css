@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: darkblue;
+    color: white
+}
+
+a{
+    color: white; /*change default blue link to white*/
+    text-decoration: none; 
+    /*remove default underline for links*/
+}
+
+section{
+    height: 100vh; /*set the height relative to the browser*/
+    /*vh means viewport height
+    viewport - the area of the window in which web content can be seen in the browser
+    100vh - means full height of browser window
+    50vh - means half the height
+
+    vw - viewport width
+    */
+    background-image: url(https://johnamata.com/photos/2018-cashless-beijing.jpg);
+    background-size: cover; 
+    /*cover: to cover the full width/height of this given section without skew or repeating */
+}
