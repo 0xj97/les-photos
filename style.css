@@ -24,3 +24,16 @@ section{
     background-size: cover; 
     /*cover: to cover the full width/height of this given section without skew or repeating */
 }
+
+header{
+    /*got a new selector for header cos i got to put it on top of photos*/
+    position: fixed; /*fixes element to browser viewport, by default in HTML things start in top left element, so we got to change it with top/left:*/
+    top: 20px;
+    left: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
